@@ -33,4 +33,11 @@ public class MainActivity extends ActionBarActivity {
         }
         return super.onOptionsItemSelected(item);
     }
+    public int Go()
+    {
+    	int res = 0;
+    	for(int i = 1; i < 100; i++)
+    		res += i;
+    	return res;
+    }
 }
